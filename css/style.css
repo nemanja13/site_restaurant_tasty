@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-size: 20px;
+    background-color: #494c5c;
+}
+.vidljiv{
+    display: block;
+}
+.nevidljiv{
+    display: none;
+}
+#logo, #naslovONama, .naslov, .podNaslov{
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+#logo:hover{
+    color: rgb(245, 189, 70);
+}
+.naslov{
+    font-size: 60px;
+}
+#naslovONama{
+    font-size: 40px;
+}
+.slika{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: 550px;
+}
+.pozSlika{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+}
+.pozSlika2{
+    background-image: url(../images/background2.jpg);
+    background-attachment: fixed;
+    height: 450px;
+}
+.pozSlika3, .pozSlika4, .pozSlika5, .pozSlika6, .pozSlika7, .pozSlika8{
+    background-image: url(../images/background3.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 550px;
+}
+.pozSlika4{
+    background-image: url(../images/background4.jpg);
+}
+.pozSlika5, .pozSlika6, .pozSlika7, .pozSlika8{
+    background-image: url(../images/background5.jpg);
+    height: 400px;
+}
+.pozSlika6{
+    background-image: url(../images/background6.jpg);
+}
+.pozSlika7{
+    background-image: url(../images/background7.jpg);
+}
+.pozSlika8{
+    background-image: url(../images/background8.jpg);
+}
+.rgba{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}
+.meni{
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+    z-index: 10;
+}
+.meni a, p{
+    color:white;
+}
+.meni a:hover{
+    color: rgb(245, 189, 70);
+    text-decoration: none;
+}
+#tabela{
+    border-top: 5px solid rgb(245, 189, 70);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 320px;
+    min-height: 400px;
+    color: white;
+}
+#tabela2{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+#tabela label, input, #lista, textarea{
+    margin-left: 2.5%;
+    width: 95%;
+}
+#tabela input, #lista, #tabela2 input, textarea{
+    border: 1px solid #c2c2c2;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: white; 
+    padding: 5px;
+}
+#tabela2 input{
+    background-color: #494c5c;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #c2c2c2;
+}
+#tabela2 textarea{
+    border:2px solid #c2c2c2;
+    background-color: #494c5c;
+
+}
+#dugme, #posalji{
+    background-color: rgb(245, 189, 70) !important;
+    border-radius: 5px !important;
+}
+#dugme:hover, #posalji:hover{
+    background-color: rgb(243, 201, 109) !important;
+}
+span{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 10px;
+}
+#slikaONama, #slikaONama2{
+    width: 100%;
+    background-image: url(../images/slika1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+#slikaONama2{
+    background-image: url(../images/slika2.jpg);
+}
+.footer{
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+a{
+    color: rgb(245, 189, 70);
+}
+a:hover{
+    color: rgb(243, 201, 109);
+}
+.linija{
+    border: 0.5px solid rgb(245, 189, 70);
+}
+.podNaslov, h5{
+    color: rgb(245, 189, 70);  
+}
+.pozSlika2 p{
+    color:rgb(245, 189, 70);
+}
+#musterije, #kuvari, #hrana, #godina{
+    font-size: 45px;
+    font-style: normal;
+    color:rgb(245, 189, 70);
+}
+#mapa{
+    padding: 0px !important;
+}
+#tabela2 label{
+    color: rgb(245, 189, 70);
+    margin-left: 2.5%;
+}
+.scrollToTop{
+    
+    text-align: center;
+    font-size: 40px;
+    width: 65px;
+    height: 65px;
+	position:fixed;
+	right:40px;
+    bottom:80px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.scrollToTop a{
+    color:white;
+}

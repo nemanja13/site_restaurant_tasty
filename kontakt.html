@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content="Tasty, Kontakt, Kontakti, Adresa, Telefon"/>
+    <meta name="author" content="Nemanja Maksimović"/>
+    <meta name="description" content="Restoran Tasty | Adresa: Bulevar Kralja Aleksandra bb, Beograd | Telefon za rezervaciju: 065/324-231-423"/>
+    <title>Tasty | Kontakt</title>
+    <link rel="shortcut icon" href="images/icon.ico"/> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid position-fixed meni">
+        <div class="row">
+            <div class="col-md-3 col-4">
+                <a href="index.html"><h1 id="logo">Tasty</h1></a>
+            </div>
+            <div class="col-md-9 d-none d-md-block">
+                <ul class="dinamickiMeni d-flex justify-content-around mt-2">
+                </ul>
+            </div>
+            <div id="sideNav" class="col-8 d-md-none mt-2 text-right">
+                <a href="#" class="h3"><i class="fas fa-bars"></i></a>
+                <ul class="nevidljiv">
+                        <li class="mt-1"><a href="index.html">Početna</a></li>
+                        <li class="mt-1"><a href="meni.html">Meni</a></li>
+                        <li class="mt-1"><a href="kontakt.html">Kontakt</a></li>
+                        <li class="mt-1"><a href="oAutoru.html">O autoru</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row slika pozSlika3 d-flex justify-content-center align-items-center">
+            <div class="col-lg-12">
+                <h2 class="naslov text-center">Kontakt</h2>
+            </div>
+        </div>
+    </div>
+    <div id="kontaktForma" class="container-fluid">
+        <div class="row my-5 d-flex justify-content-around">
+            <div class="col-lg-4 col-md-6 text-sm-center text-md-left">
+                <h3 class="podNaslov mt-5">Kontakti</h3>
+                <p class="mt-5">Adresa: Bulevar Kralja Aleksandra bb, Beograd</p>
+                <p>Telefon za rezervaciju: 065/324-231-423</p>
+                <p>Email za organizaciju događaja: tasty&#64;gmail&#46;com</p>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" class="ml-5"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" class="ml-5"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com" class="ml-5"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <form action="#" method="GET">
+                    <table id="tabela2">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label for="ime" class="mt-2">Ime *</label> <span id="greskaIme" class="nevidljiv">(obavezno)</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="ime"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="prezime" class="mt-2">Prezime *</label> <span id="greskaPrezime" class="nevidljiv">(obavezno)</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="prezime"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email" class="mt-2">Email *</label> <span id="greskaEmail" class="nevidljiv">(obavezno)</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="email"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="tbNaslov" class="mt-2">Naslov</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" id="tbNaslov"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="taPoruka" class="mt-2">Poruka</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea id="taPoruka" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="my-2" type="button" id="posalji" value="Poslati"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="mapa" class="col-lg-12">
+                <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.64762834302!2d20.515300490207213!3d44.78798866943241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a709c84740bb3%3A0x3f4f010a48c26e3f!2z0JHRg9C70LXQstCw0YAg0LrRgNCw0ZnQsCDQkNC70LXQutGB0LDQvdC00YDQsCwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1560347793640!5m2!1ssr!2srs" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-4 mt-5 text-center d-none d-lg-block">
+                <h5 class="mb-5">O nama</h5>
+                <p class="text-justify">Restoran „Tasty“ je mesto uzbudljivih gastronomskih susreta domaćinskog i kosmopolitskog, lokalnog i nacionalnog.
+                    Mesto gde se tradicija prepliće sa modernošću. Mesto gde se opušta i uživa.
+                    Prostor koji odiše intimom, toplinom i šarmom doma
+                    . Zaklon koji budi najdivnija sećanja.
+                     Utočište gde ćete se uvek osećati kao među svojima.</p>
+            </div>
+            <div class="col-lg-4 mt-5 col-sm-6 text-center">
+                <h5 class="mb-5">Radno vreme</h5>
+                <p>Ponedeljak-Četvrtak</p>
+                <p>11:00 - 22:00</p>
+                <p>Petak-Nedelja</p>
+                <p>11:00 - 23:00</p>
+            </div>
+            <div class="col-lg-4 mt-5 col-sm-6 text-center">
+                <h5 class="mb-5">Kontakt</h5>
+                <p>Adresa: Bulevar Kralja Aleksandra bb</p>
+                <p>Telefon:</p>
+                <p>011/324-231</p>
+                <p>065/324-231-423</p>
+                <p>Email:</p>
+                <p>tasty&#64;gmail&#46;com</p>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" class="ml-5"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" class="ml-5"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com" class="ml-5"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <hr class="linija mt-4"/>
+            <p class="copyRight text-center h6 mt-3">Copyright &copy; 2019 by Nemanja Maksimović. All rights reserved. Documentation: <a href="">documentation</a>, <a href="sitemap.xml">sitemap</a> </p>
+        </div>
+    </div>
+    <div class="scrollToTop nevidljiv"><a href="#"><i class="fa fa-angle-double-up"></i></a></div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main1.js"></script>
+</body>
+</html>
