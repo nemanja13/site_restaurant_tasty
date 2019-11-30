@@ -5,7 +5,7 @@ window.onload=function(){
     addEventListener("scroll", scroll);
 }
 var nazivLinka=["Početna", "Meni", "Kontakt", "O autoru"];
-var putanjaLInka=["index.html", "meni.html", "kontakt.html", "Oautoru.html"]
+var putanjaLInka=["index.html", "meni.html", "kontakt.html", "oAutoru.html"]
 function pravljenjeMenija(){
     var ul=document.getElementsByClassName("dinamickiMeni")[0];
     var li="";
