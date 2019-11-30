@@ -136,6 +136,7 @@ span{
 }
 #slikaONama, #slikaONama2{
     width: 100%;
+    min-height: 300px;
     background-image: url(../images/slika1.jpg);
     background-size: cover;
     background-repeat: no-repeat;  
