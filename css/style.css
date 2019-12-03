@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -13,6 +14,7 @@ a{
 body{
     font-size: 20px;
     background-color: #494c5c;
+    font-family: 'Roboto', sans-serif;
 }
 .vidljiv{
     display: block;
