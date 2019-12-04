@@ -43,7 +43,7 @@ footer.innerHTML=`<div class="row d-flex justify-content-around">
 </div>
 <div class="col-lg-12">
 <hr class="linija mt-4"/>
-<p class="copyRight text-center h6 mt-3">Copyright &copy; 2019 by Nemanja Maksimović. All rights reserved. Documentation: <a href="">documentation</a>, <a href="sitemap.xml">sitemap</a> </p>
+<p class="copyRight text-center h6 mt-3">Copyright &copy; 2019 by Nemanja Maksimović. All rights reserved. Documentation: <a href="dokumentacija.pdf">documentation</a>, <a href="sitemap.xml">sitemap</a> </p>
 </div>`;
 
 $(document).ready(function(){
@@ -179,21 +179,21 @@ if(url.indexOf("kontakt.html")!=-1){
         var regExpPrezime=/^[A-ZČĆŠĐŽ][a-zčćšđž]{4,19}(\s[A-Z][a-z]{4,19})*$/;
         var regExpEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
         posalji.addEventListener("click", function(){
-            if(regExpIme.test(ime.value)){
+            if(regExpIme.test(ime.value.trim())){
                 document.getElementById("greskaIme").classList.add("nevidljiv");
                 document.getElementById("greskaIme").classList.remove("vidljiv");
             }else{
                 document.getElementById("greskaIme").classList.add("vidljiv");
                 document.getElementById("greskaIme").classList.remove("nevidljiv");
             }
-            if(regExpPrezime.test(prezime.value)){
+            if(regExpPrezime.test(prezime.value.trim())){
                 document.getElementById("greskaPrezime").classList.add("nevidljiv");
                 document.getElementById("greskaPrezime").classList.remove("vidljiv");
             }else{
                 document.getElementById("greskaPrezime").classList.add("vidljiv");
                 document.getElementById("greskaPrezime").classList.remove("nevidljiv");
             }
-            if(regExpEmail.test(email.value)){
+            if(regExpEmail.test(email.value.trim())){
                 document.getElementById("greskaEmail").classList.add("nevidljiv");
                 document.getElementById("greskaEmail").classList.remove("vidljiv");
             }else{
